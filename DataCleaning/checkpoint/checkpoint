@@ -1,0 +1,2 @@
+model_checkpoint_path: "gain.ckpt"
+all_model_checkpoint_paths: "gain.ckpt"

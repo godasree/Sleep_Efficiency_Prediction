@@ -1,0 +1,2 @@
+model_checkpoint_path: "Phase2_LSTMaverage"
+all_model_checkpoint_paths: "Phase2_LSTMaverage"
