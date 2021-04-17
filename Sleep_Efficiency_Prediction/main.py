@@ -211,8 +211,7 @@ if __name__ == '__main__':
                                               lstmphase2_parameter['metadatahiddensize2']],
                                              lstmphase2_parameter['epoch'],
                                              lstmphase2_parameter['keepprobability'],
-                                             True,
-                                             False)
+                                             )
 
     lossarray.append(loss)
     report_learning_alpha(name, alphas, 7)

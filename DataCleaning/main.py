@@ -106,7 +106,7 @@ def Delete_window(number_of_windows,Generator_probability_window,users,feature_n
 if __name__ == '__main__':
     dataset_path = 'C:/DBProject/Sleep_Efficiency_Prediction/datasets/full_data_sleeps.csv'
     imputeddata_path = 'C:/DBProject/Sleep_Efficiency_Prediction/datasets/imputed_data_GAIN.csv'
-    epouh = 19000
+    epouh = 1000
     ##loading excel datasets into pandas dataframe
     behavioral_activity_sleep_data_csv = pd.read_csv(dataset_path)
     #filling missing data with Nan Value
